@@ -1,0 +1,307 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword.control.if.haskell",
+                    "keyword.control.then"
+                ],
+                "settings": {
+                    "foreground": "#ff0000"
+                }
+            },
+            {
+                "scope": "keyword.control.else",
+                "settings": {
+                    "foreground": "#0000ff"
+                }
+            },
+            {
+                "scope": [
+                    "comment",
+                    "comment.line.double-slash.js",
+                    "comment.block.html",
+                    "comment.block.handlebars"
+                ],
+                "settings": {
+                    "foreground": "#6A9955"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.namespace",
+                ],
+                "settings": {
+                    "foreground": "#D4D4D4"
+                }
+            },
+        ],
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.list.openMode": "doubleClick",
+    "editor.linkedEditing": true,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "explorer.compactFolders": false,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "search.useIgnoreFiles": false,
+    "files.exclude": {
+        "**/.apt_generated*": true,
+        "**/.classpath": true,
+        "**/.dm": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/*.class": true,
+        "**/*.dvi": true,
+        "**/*.exe": true,
+        "**/*.hi": true,
+        "**/*.o": true,
+        "**/*.tex": true,
+        "**/build": true,
+        "**/target": true
+    },
+    "has-go.ghciInterpreter": "Stack/Cabal",
+    "redhat.telemetry.enabled": true,
+    "editor.cursorBlinking": "solid",
+    "window.titleBarStyle": "custom",
+    "window.customMenuBarAltFocus": false,
+    "window.enableMenuBarMnemonics": false,
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "jsp": "java"
+    },
+    "emmet.syntaxProfiles": {
+        "html": "xhtml",
+        "jsp": "java"
+    },
+    // "workbench.editorAssociations": {
+    //     "*.ipynb": "jupyter.notebook.ipynb"
+    // },
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "window.restoreFullscreen": true,
+    "window.newWindowDimensions": "maximized",
+    "workbench.editor.restoreViewState": true,
+    "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 0,
+    "editor.letterSpacing": 0,
+    "debug.console.fontFamily": "default",
+    "debug.console.fontSize": 14,
+    "debug.console.lineHeight": 0,
+    "editor.renderLineHighlight": "line",
+    "java.maven.downloadSources": true,
+    "java.maven.updateSnapshots": true,
+    "maven.pomfile.autoUpdateEffectivePOM": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "vim.smartRelativeLine": true,
+    "editor.lineNumbers": "relative",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "C:\\Users\\<Users>\\.vimrc",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "markdown.extension.list.indentationSize": "inherit",
+    "files.associations": {
+        "*.jsp": "java"
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+        "editor.tabSize": 4,
+    },
+    "mairkdown.preview.fontSize": 16,
+    // "vim.insertModeKeyBindings": [
+    //     {
+    //         "before": [
+    //             "j",
+    //             "k"
+    //         ],
+    //         "after": [
+    //             "<Esc>"
+    //         ]
+    //     }
+    // ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "s"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "markdown.extension.editing.toggleStrikethrough",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "d"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.revealDefinition",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.goToTypeDefinition",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.goToImplementation",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "s"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "markdown.extension.editing.toggleStrikethrough",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "Y"
+            ],
+            "after": [
+                "y",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "s"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "2",
+                "s"
+            ]
+        },
+    ],
+    "files.autoGuessEncoding": true,
+    "editor.hover.sticky": true,
+    "xml.validation.namespaces.enabled": "never",
+    "xml.validation.schema.enabled": "never",
+    "xml.validation.noGrammar": "ignore",
+    "editor.tabCompletion": "on",
+    "editor.wordWrap": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    "update.mode": "none",
+    "editor.minimap.enabled": false,
+    "workbench.editorAssociations": {
+        "*.pdf": "pdf.preview"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "boot-java.rewrite.reconcile": true,
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-community-server-connector",
+            "name": "Community Server Connector",
+            "startOnActivation": true
+        }
+    ],
+    // "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "haskell.ghcupExecutablePath": "D:/dev_tool/haskell/ghcup/bin/ghcup.exe",
+    "git.openRepositoryInParentFolders": "always",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.letterSpacing": 0,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.defaultProfile.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)",
+    "terminal.integrated.drawBoldTextInBrightColors": true,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.profiles.windows": {
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": []
+        }
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+}
